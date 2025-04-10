@@ -72,8 +72,8 @@ body {
 .hero_area {
   height: 100vh;
   background-color: #b5caee;
-  background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
+  background-image: url(../images/logo.jpg);
+  background-size: cover ;
 }
 
 .sub_page .hero_area {
