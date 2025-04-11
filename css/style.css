@@ -70,10 +70,12 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 100vh;
+  height: 102vh;
   background-color: #b5caee;
-  background-image: url(../images/logo.jpg);
+  background-image: url(../images/logobanner2.png);
+  background-position: left 20px up 150px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sub_page .hero_area {
@@ -542,11 +544,11 @@ a:focus {
   border: none;
   outline: none;
   background-color: transparent;
-  width: 100%;
+  width: 190%;
   margin: 15px 0;
-  padding: 10px 20px;
+  padding: 50px 50px;
   border: 1px solid rgba(0, 0, 0, 0.4);
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .contact_section .contact-form input.input_message {
@@ -574,7 +576,8 @@ a:focus {
   outline: none;
   padding: 12px 50px;
   text-transform: uppercase;
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
   background-color: #fec913;
   color: #fff;
   border-radius: 30px;

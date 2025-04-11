@@ -4146,13 +4146,8 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  display: -ms-flexbox;
+  background-image: url("../images/topcolor.png");
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
@@ -4178,8 +4173,8 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
-
 .navbar-brand:hover, .navbar-brand:focus {
+	
   text-decoration: none;
 }
 
