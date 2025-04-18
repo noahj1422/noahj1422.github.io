@@ -70,12 +70,11 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 102vh;
+  height: 100vh;
   background-color: #b5caee;
-  background-image: url(../images/logobanner2.png);
-  background-position: left 20px up 150px;
-  background-size: cover;
+  background-image: url(../images/logobanner3.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sub_page .hero_area {
@@ -83,7 +82,7 @@ body {
 }
 
 .sub_page .who_section.layout_padding {
-  padding-top: 0;
+  padding-top: 10;
 }
 
 .hero_area.sub_pages {
@@ -100,10 +99,10 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  margin: 10px 30px;
-  color: #ffffff;
-  text-align: center;
-  position: relative;
+   margin: 10px 30px;
+   color: #ffffff;
+   text-align: center;
+   position: relative;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
@@ -188,7 +187,12 @@ a:focus {
 
 /*end header section*/
 .slider_section {
-  height: 90%;
+  height: 100%;
+  background-color: #b5caee;
+  background-image: url(../images/logobanner3.png);
+  background-repeat: no-repeat;
+  background-position: -0px -100px ;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,7 +204,7 @@ a:focus {
 
 .slider_section .detail-box {
   text-align: center;
-  margin-bottom: 110px;
+  margin-bottom: 150px;
 }
 
 .slider_section .detail-box h1 {
@@ -261,6 +265,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 10px;
+  height: 450px;
 }
 
 .do_section .do_container .box {
@@ -271,8 +276,8 @@ a:focus {
 }
 
 .do_section .do_container .box .img-box {
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,7 +292,7 @@ a:focus {
 }
 
 .do_section .do_container .box .img-box img {
-  width: 45px;
+  width: 90px;
 }
 
 .do_section .do_container .box .detail-box {
@@ -301,8 +306,8 @@ a:focus {
 .do_section .do_container .arrow_bg::before {
   content: "";
   position: absolute;
-  top: -23px;
-  left: -17px;
+  top: 20px;
+  left: 20px;
   width: 262%;
   height: 90%;
   z-index: 3;
@@ -310,15 +315,15 @@ a:focus {
 }
 
 .do_section .do_container .arrow-start::before {
-  background-image: url(../images/arrow-start.png);
+  background-image: url(../images/arrowstart.png);
 }
 
 .do_section .do_container .arrow-middle::before {
-  background-image: url(../images/arrow-middle.png);
+  background-image: url(../images/arrowmiddle.png);
 }
 
 .do_section .do_container .arrow-end::before {
-  background-image: url(../images/arrow-end.png);
+  background-image: url(../images/arrowend.png);
 }
 
 .who_section .row {
@@ -377,12 +382,14 @@ a:focus {
   width: 100%;
 }
 
-.work_section .work_container .box.b-2, .work_section .work_container .box.b-3 {
-  width: 43.5%;
+.work_section .work_container .box.b-1, .work_section .work_container .box.b-3 {
+  width: 50%;
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
-.work_section .work_container .box.b-1, .work_section .work_container .box.b-4 {
-  width: 56.5%;
+.work_section .work_container .box.b-2, .work_section .work_container .box.b-4 {
+  width: 45%;
 }
 
 .client_section {
@@ -536,7 +543,7 @@ a:focus {
 }
 
 .contact_section .contact-form {
-  padding: 25px;
+  padding: 50px;
   border-radius: 20px;
 }
 
@@ -576,8 +583,8 @@ a:focus {
   outline: none;
   padding: 12px 50px;
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 0px;
+  margin-left: 325px;
   background-color: #fec913;
   color: #fff;
   border-radius: 30px;
@@ -585,7 +592,7 @@ a:focus {
 
 .contact_section .map_img-box {
   width: 80%;
-  margin: 25px auto 0 auto;
+  margin: 15px auto 0 auto;
 }
 
 .contact_section .map_img-box img {
@@ -693,8 +700,6 @@ a:focus {
 .footer_section {
   background-color: #232323;
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -704,9 +709,10 @@ a:focus {
 .footer_section p {
   padding: 20px 65px;
   color: #fbfcfd;
-  margin: 0 auto;
-  text-align: center;
+  margin-top: 80px;
   border-top: 1px solid #ffffff;
+  text-align: center;
+  min-height: 100px;
 }
 
 .footer_section a {
